@@ -189,10 +189,6 @@ suhu_xc() {
     fi
 }
 
-catatan() {
-	printf "Mod: XppaiWRT x PHPTeleBotWrt"
-}
-
 print_machine() {
 	local Machine=""
 	local HostName=$(uci -q get system.@system[0].hostname)
