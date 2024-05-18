@@ -40,7 +40,7 @@ $bot->cmd("/start", function () {
     Bot::sendMessage(
 		$GLOBALS["banner"] . "\n" .
       "Welcome to PHPTeleBotWrt!\nRun /cmdlist to see all available comands"
-      . . "\n\n" . $GLOBALS["randAds"]
+      . "\n\n" . $GLOBALS["randAds"]
 		,$GLOBALS["options"]);
 });
 
